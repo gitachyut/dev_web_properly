@@ -1,0 +1,17 @@
+{
+  "name": "bowr",
+  "authors": [
+    "gitachyut <linkinakd72@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
