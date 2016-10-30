@@ -1,4 +1,4 @@
-require('./jquery.js');
-require('./bootstrap.js');
-
-var t = 'hh';
+var $ = require("jquery");
+require("bootstrap-sass");
+require('../css/styles.scss');
+require('./script');

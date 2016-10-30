@@ -7,6 +7,10 @@
   "main": "",
   "license": "MIT",
   "homepage": "",
+  "dependencies": {
+    "jquery": "3",
+    "bootstrap-sass": "3.3.7"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
