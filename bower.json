@@ -9,7 +9,9 @@
   "homepage": "",
   "dependencies": {
     "jquery": "3",
-    "bootstrap-sass": "3.3.7"
+    "bootstrap-sass": "3.3.7",
+    "bootstrap-material-design": "^4.0.2",
+    "material-design-lite": "^1.2.1"
   },
   "ignore": [
     "**/.*",

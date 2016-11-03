@@ -11,6 +11,10 @@ module.exports = {
    },
    module:  {
      loaders: [
+       {
+         test: /\.css$/,
+         loader: "style!css"
+       },
       {
         test: /\.scss$/,
         loader: ExtractTextPlugin.extract('css!sass')
@@ -27,7 +31,7 @@ module.exports = {
        $:      "jquery",
        jQuery: "jquery"
      }),
-     new ExtractTextPlugin('./css/style.css'),
+     new ExtractTextPlugin('../css/dist/style.min.css'),
      new webpack.optimize.UglifyJsPlugin({
            compress: { warnings: false }
     })
